@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Pertemuan 11</string>
+
+    <string name="title_main">Daftar Post</string>
+    <string name="subtitle_main">Retrofit + MockAPI.io</string>
+    <string name="title_detail">Detail Post</string>
+    <string name="title_create_post">Buat Post (POST)</string>
+    <string name="title_edit_post">Edit Post (PUT)</string>
+
+    <string name="label_id">id: %1$s</string>
+    <string name="hint_title">Judul (title)</string>
+    <string name="hint_body">Isi (body)</string>
+    <string name="hint_new_title">Judul baru</string>
+
+    <string name="action_add_post">Tambah Post</string>
+    <string name="action_retry">Coba lagi</string>
+    <string name="action_edit_put">Edit semua (PUT)</string>
+    <string name="action_patch">Ubah judul saja (PATCH)</string>
+    <string name="action_delete_post">Hapus (DELETE)</string>
+    <string name="action_save_post">Simpan (POST)</string>
+    <string name="action_save_put">Simpan perubahan (PUT)</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_send">Kirim</string>
+    <string name="action_delete">Hapus</string>
+
+    <string name="state_empty">Belum ada post. Tekan \"Tambah Post\" untuk membuat yang pertama.</string>
+    <string name="error_network">Tidak bisa terhubung ke server. Periksa koneksi internet.</string>
+    <string name="error_http">Server membalas dengan error HTTP %1$d.</string>
+    <string name="error_title_required">Judul wajib diisi</string>
+    <string name="error_body_required">Isi wajib diisi</string>
+
+    <string name="dialog_result_title">%1$s · status %2$d</string>
+    <string name="dialog_patch_title">Ubah judul (PATCH)</string>
+    <string name="dialog_patch_message">Hanya title yang dikirim. Body di server tetap utuh.</string>
+    <string name="dialog_delete_title">Hapus post ini?</string>
+    <string name="dialog_delete_message">Post akan dihapus dari server. Setelah itu GET ke id ini akan menghasilkan 404.</string>
+</resources>
